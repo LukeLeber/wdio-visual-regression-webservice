@@ -1,0 +1,14 @@
+# Ignore all IDE files
+nbproject/*
+
+# Ignore the node.js modules directory
+# To create this directory, run "npm install"
+node_modules/*
+
+# Ignore error screenshots
+errorShots/*
+
+# Ignore all screenshots except for the reference
+app/screenshots/screen/*
+app/screenshots/diff/*
+

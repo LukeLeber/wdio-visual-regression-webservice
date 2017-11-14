@@ -1,0 +1,28 @@
+{
+  "name": "wdio-visual-regression-webservice",
+  "version": "1.0.0",
+  "description": "A web-service based interface for the webdriverio project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "author": "Luke A. Leber <lukeleber@gmail.com>",
+  "license": "MIT",
+  "repository" : {
+  	"type" : "git",
+  	"url" : "https://github.com/LukeLeber/wdio-visual-regression-webservice.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "config": "^1.28.1",
+    "connect": "^3.6.5",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "merge": "^1.2.0",
+    "wdio-dot-reporter": "0.0.9",
+    "wdio-mocha-framework": "^0.5.11",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-visual-regression-service": "^0.8.0",
+    "webdriverio": "=4.8.0"
+  }
+}
